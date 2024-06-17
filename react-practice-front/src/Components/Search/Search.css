@@ -1,0 +1,17 @@
+th {
+    text-align: left;
+
+}
+
+.table-header {
+    border-bottom: 1px solid lightgray;
+}
+
+.search-filter {
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    border: none;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
