@@ -1,0 +1,15 @@
+header {
+    /* background-color: red; */
+    border-bottom: 3px solid lightgray;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+main {
+    padding: 10px;
+}
+
+.page-title {
+    font-size: 1.3em;
+    /* text-align: center; */
+}

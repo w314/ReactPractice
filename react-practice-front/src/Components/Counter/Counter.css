@@ -1,0 +1,13 @@
+.counter {
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    font-size: 1.1em;
+    align-items: center;
+}
+
+.counter-button {
+    padding: 15px;
+}
