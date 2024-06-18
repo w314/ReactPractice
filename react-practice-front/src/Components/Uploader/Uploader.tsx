@@ -18,7 +18,9 @@ const Uploader: React.FC<{}> = () => {
 
     return (
         <div className="uploader">
-            { url && <img src={url} alt='image' />}
+            <div className="image">
+                { url && <img src={url} alt='image' />}
+            </div>
         <input
             type="file"
             onChange={handleFileChange}

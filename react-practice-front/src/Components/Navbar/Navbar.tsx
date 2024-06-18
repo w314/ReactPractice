@@ -19,7 +19,7 @@ const NavItem: React.FC<{
 
 const Navbar: React.FC<{}> = () => {
 
-    const navItems = ["counter", "todoList", "formValidation", "search","uploader"]
+    const navItems = ["counter", "todoList", "formValidation", "search","uploader", "users"]
 
     return (
         <>  
