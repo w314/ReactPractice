@@ -43,9 +43,9 @@ const Search: React.FC<{}> = () => {
                 <th>Price</th>
             </tr>
             {products
-                .filter(product => product.name.toLowerCase().includes(filter))
+                .filter(product => product.name.toLowerCase().includes(filter.toLowerCase()))
                 .map(product => (
-                <tr>
+                <tr key={product.id}>
                     <td>{product.name}</td>
                     <td>{product.price}</td>
                 </tr>   

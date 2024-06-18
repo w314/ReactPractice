@@ -14,6 +14,9 @@ const Profile: React.FC<{}> = () => {
     const fakeEmail = "email@example.com"
     const fakeContact = "123456789"
     const fakeImgUrl = 'https://st4.depositphotos.com/11634452/41441/v/450/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg'
+    // https://cdn.pixabay.com/photo/2024/05/26/00/40/lizard-8787888_1280.jpg
+
+    console.log(`ImageURL: ${imgUrl}`)
 
     const validName = () => {
         return name.length > 0;
@@ -32,6 +35,7 @@ const Profile: React.FC<{}> = () => {
 
 
     const handleImgUrlChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        console.log(`Image URL: ${imgUrl}`)
         setImgUrl(event.target.value);
     }
 
@@ -53,6 +57,7 @@ const Profile: React.FC<{}> = () => {
         :   <div className="image">
                 <img src={imgUrl ? imgUrl : fakeImgUrl} alt="Profile Photo" />
             </div>
+
         }
 
         <div className="form-row">           
